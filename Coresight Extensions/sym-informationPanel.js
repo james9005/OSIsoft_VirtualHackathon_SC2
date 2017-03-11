@@ -8,7 +8,7 @@
 
         function dataUpdate(data) {
             if (data) {
-
+                console.log(data);
 
 
             }
