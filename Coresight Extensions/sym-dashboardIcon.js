@@ -4,13 +4,13 @@
     CS.deriveVisualizationFromBase(symbolVis);
 
     symbolVis.prototype.init = function(scope) {
-        this.onDataUpdate = dataUpdate;
 
         var randomint = Math.round(Math.random()*1000);
         $('#newDiv').append('<div class="panel panel-primary"><div class="panel-heading"><div class="row"><div class="col-xs-3"><i class="fa fa-comments fa-5x"></i></div><div class="col-xs-9 text-right"><div class="huge" id ="value'+randomint+'">26</div><div id="Details'+randomint+'">New Comments!</div></div></div></div></div>');
         $('#newDiv').attr('id', 'div'+randomint);
 
-        function dataUpdate(data, randomint) {
+        this.onDataUpdate = dataUpdate;
+        function dataUpdate(data) {
             if (data) {
                 console.log(data);
                 console.log(scope);
@@ -21,8 +21,8 @@
 
 
 
-                $('#value').text(data.Value);
-                $('#Details').text(data.Label);
+                $('#value' + randomint).text(data.Value);
+                $('#Details' + randomint).text(data.Label);
 
             }
         }
