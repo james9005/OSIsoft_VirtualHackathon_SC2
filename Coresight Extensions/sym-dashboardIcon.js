@@ -33,9 +33,9 @@
             }
         }
 
-            // this.onConfigChange = function() {
-            //
-            // }
+            this.onConfigChange = function() {
+                scope.symbol._h = scope.config.Height;
+            }
 
     };
 
