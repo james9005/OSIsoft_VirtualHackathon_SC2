@@ -9,7 +9,10 @@
         function dataUpdate(data) {
             if (data) {
                 console.log(data);
+                console.log(scope);
 
+                $('#value').text(data.Value);
+                $('#Details').text(data.Labels);
 
             }
         }
