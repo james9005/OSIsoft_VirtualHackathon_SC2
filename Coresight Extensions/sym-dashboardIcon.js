@@ -6,7 +6,7 @@
     symbolVis.prototype.init = function(scope) {
 
         var randomint = Math.round(Math.random()*1000);
-        $('#newDiv').append('<div class="panel panel-primary"><div class="panel-heading"><div class="row"><div class="col-xs-3"><i class="fa fa-comments fa-5x"></i></div><div class="col-xs-9 text-right"><div class="huge" id ="value'+randomint+'">26</div><div id="Details'+randomint+'">New Comments!</div></div></div></div></div>');
+        $('#newDiv').append('<div class="panel panel-primary"><div class="panel-heading" style="height: 100%; align-items: center; justify-content: center; display: flex;"><div class="row"><div class="col-xs-3"><i class="fa fa-comments fa-5x"></i></div><div class="col-xs-9 text-right"><div class="huge" id ="value'+randomint+'">26</div><div id="Details'+randomint+'">New Comments!</div></div></div></div></div>');
         $('#newDiv').attr('id', 'div'+randomint);
 
         this.onDataUpdate = dataUpdate;
@@ -18,7 +18,7 @@
 
                 // console.log(($.this)
 
-                console.log(scope.config.Label);
+                // console.log(scope.config.Label);
 
                 if(scope.config.Label != ''){
                     $('#Details' + randomint).text(scope.config.Label);
@@ -48,7 +48,7 @@
             return {
                 DataShape: 'Value',
                 Height: 150,
-                Width: 1500,
+                Width: 150,
                 BackgroundColor: 'rgb(255,0,0)',
                 TextColor: 'rgb(0,255,0)',
                 colour: 'Normal',
