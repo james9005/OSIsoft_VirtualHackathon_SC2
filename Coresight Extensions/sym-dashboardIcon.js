@@ -18,16 +18,22 @@
 
                 // console.log(($.this)
 
+                if(scope.config.Label != ''){
+                    $('#Details' + randomint).text(scope.config.Label);
+                }else {
+                    $('#Details' + randomint).text(data.Label);
 
+                }
 
 
                 $('#value' + randomint).text(data.Value);
-                $('#Details' + randomint).text(data.Label);
-                console.log(scope.config);
+                // console.log(scope.config);
             }
         }
 
-
+            // this.onConfigChange = function() {
+            //
+            // }
 
     };
 
