@@ -11,9 +11,11 @@
                 console.log(data);
 
 
+
+
             }
         }
-
+//
 
 
     };
@@ -38,3 +40,33 @@
 
     CS.symbolCatalog.register(definition);
 })(window.PIVisualization);
+
+
+
+
+
+// Object
+// Data
+// :
+// Array[31]
+// 0
+// :
+// Object
+// EndTime
+// :
+// "3/11/2017 2:01:09 PM"
+// ErrorCode
+// :
+// 3503
+// ErrorDescription
+// :
+// "PI Point Not Found \\PISRV01\Daily Rollup1.Actual EOD"
+// StartTime
+// :
+// "3/11/2017 6:01:09 AM"
+// Values
+// :
+// Array[0]
+// __proto__
+// :
+// Object
