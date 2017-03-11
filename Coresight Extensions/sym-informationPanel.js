@@ -25,7 +25,7 @@
         visObjectType: symbolVis,
         getDefaultConfig: function() {
             return {
-                DataShape: 'Value',
+                DataShape: 'TimeSeries',
                 Height: 150,
                 Width: 150,
                 BackgroundColor: 'rgb(255,0,0)',
