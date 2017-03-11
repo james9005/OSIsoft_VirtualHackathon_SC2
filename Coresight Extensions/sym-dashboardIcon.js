@@ -12,9 +12,9 @@
         this.onDataUpdate = dataUpdate;
         function dataUpdate(data) {
             if (data) {
-                console.log(data);
-                console.log(scope);
-                console.log(randomint);
+                // console.log(data);
+                // console.log(scope);
+                // console.log(randomint);
 
                 // console.log(($.this)
 
