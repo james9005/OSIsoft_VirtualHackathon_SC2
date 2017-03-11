@@ -7,10 +7,21 @@
 <div class="c-config-content">
 
 
-    <select ng-model="config.url">
+    <select ng-model="config.colour">
         <option value ="hi">Normal</option>
         <option value ="hi">Other</option>
     </select>
 
-    <h3></h3>
+    <div class="c-side-pane t-toolbar">
+        <span>Label Override</span>
+    </div>
+    <div class="c-config-content">
+        Label:
+        <input type="text" ng-model="config.Label">
+    </div>
+    <div class="c-config-content">
+        icon:
+        <input type="text" ng-model="config.icon">
+    </div>
+
 </div>
