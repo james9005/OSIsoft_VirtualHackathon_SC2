@@ -23,7 +23,7 @@
 
                 $('#value' + randomint).text(data.Value);
                 $('#Details' + randomint).text(data.Label);
-
+                console.log(scope.config);
             }
         }
 
@@ -42,7 +42,10 @@
                 Height: 150,
                 Width: 1500,
                 BackgroundColor: 'rgb(255,0,0)',
-                TextColor: 'rgb(0,255,0)'
+                TextColor: 'rgb(0,255,0)',
+                colour: 'Normal',
+                Label:'',
+                icon:''
             };
         },
         configTitle: 'Format Symbol',
