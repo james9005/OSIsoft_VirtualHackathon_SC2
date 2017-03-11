@@ -20,7 +20,7 @@
 
     var definition = {
         typeName: 'informationPanel',
-        datasourceBehavior: CS.Extensibility.Enums.DatasourceBehaviors.Single,
+        datasourceBehavior: CS.Extensibility.Enums.DatasourceBehaviors.Multiple,
         // iconUrl: 'Images/ServelecControlsSmall.png',
         visObjectType: symbolVis,
         getDefaultConfig: function() {
