@@ -18,6 +18,8 @@
 
                 // console.log(($.this)
 
+                console.log(scope.config.Label);
+
                 if(scope.config.Label != ''){
                     $('#Details' + randomint).text(scope.config.Label);
                 }else {
